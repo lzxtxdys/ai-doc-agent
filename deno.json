@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@corespeed/zypher": "jsr:@corespeed/zypher@^0.6.1",
+    "googleapis": "npm:googleapis@^167.0.0",
+    "rxjs-for-await": "npm:rxjs-for-await@^1.0.0"
+  }
+}

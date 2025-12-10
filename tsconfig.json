@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      
+      // ⭐ 关键修复：允许导入 .ts 扩展名，解决 TS5097 错误
+      "allowImportingTsExtensions": true
+    }
+  }
