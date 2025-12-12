@@ -1,0 +1,33 @@
+{
+    "name": "doc-agent-backend",
+    "version": "1.0.0",
+    "description": "AI Document Agent Backend",
+    "main": "main.ts",
+    "scripts": {
+        "start": "ts-node main.ts",
+        "dev": "nodemon --exec ts-node main.ts"
+    },
+    "keywords": [
+        "ai",
+        "agent",
+        "anthropic"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "@types/node": "^20.19.26",
+        "nodemon": "^3.0.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.18.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.1",
+        "google-auth-library": "^9.6.3",
+        "googleapis": "^133.0.0"
+    }
+}
